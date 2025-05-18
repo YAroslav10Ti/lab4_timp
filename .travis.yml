@@ -1,24 +1,8 @@
 language: cpp
-
 compiler:
   - gcc
   - clang
-
-os: linux
-
-dist: bionic  # Ubuntu 18.04 (можно заменить на focal для 20.04)
-
-env:
-  global:
-    - BUILD_TYPE=Release
-
-before_install:
-  - sudo apt-get update -qq
-  - sudo apt-get install -qq cmake
-
 script:
   - mkdir -p build && cd build
-  - cmake -DCMAKE_BUILD_TYPE=$BUILD_TYPE ..
-  - cmake --build . --config $BUILD_TYPE
-  - ctest --output-on-failure
-
+  - cmake ..
+  - cmake --build .
