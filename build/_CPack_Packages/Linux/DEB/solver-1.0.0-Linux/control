@@ -1,0 +1,9 @@
+Architecture: amd64
+Description: Equation solver application
+Maintainer: Your Name <your.email@example.com>
+Package: solver
+Priority: optional
+Section: devel
+Version: 1.0.0
+Installed-Size: 37
+

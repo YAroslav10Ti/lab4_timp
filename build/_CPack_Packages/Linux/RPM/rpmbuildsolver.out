@@ -1,0 +1,12 @@
+Building target platforms: x86_64
+Building for target x86_64
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.xfNUft
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.Ys0H9H
+Processing files: solver-1.0.0-1.x86_64
+Provides: solver = 1.0.0-1 solver(x86-64) = 1.0.0-1
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires: libc.so.6()(64bit) libc.so.6(GLIBC_2.2.5)(64bit) libc.so.6(GLIBC_2.34)(64bit) libstdc++.so.6()(64bit) libstdc++.so.6(GLIBCXX_3.4)(64bit) libstdc++.so.6(GLIBCXX_3.4.11)(64bit) libstdc++.so.6(GLIBCXX_3.4.32)(64bit) libstdc++.so.6(GLIBCXX_3.4.9)(64bit) rtld(GNU_HASH)
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /home/vboxuser/lab4_timp/build/_CPack_Packages/Linux/RPM/solver-1.0.0-Linux
+Wrote: /home/vboxuser/lab4_timp/build/_CPack_Packages/Linux/RPM/RPMS/solver-1.0.0-Linux.rpm
+Executing(%clean): /bin/sh -e /var/tmp/rpm-tmp.dhhaaF
+Executing(rmbuild): /bin/sh -e /var/tmp/rpm-tmp.iLufIb

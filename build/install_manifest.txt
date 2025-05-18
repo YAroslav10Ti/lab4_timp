@@ -1,0 +1,3 @@
+/usr/bin/solver
+/usr/share/doc/solver/LICENSE
+/usr/share/doc/solver/README.md
